@@ -6,7 +6,7 @@ Two simple scripts to install a project that uses CMake and follows the patterns
 
 Installing the library that uses CMake:
 
-   sudo bash ./install.sh
+    sudo bash ./install.sh
 
 Cleaning the temporary binaries and cache created by CMake:
 
