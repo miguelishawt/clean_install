@@ -1,6 +1,6 @@
 # clean install
 
-Two simple scripts to install a project that uses CMake and follows the patterns I use.
+Two simple scripts to install a project that uses CMake (with the patterns I use).
 
 # Usage
 
