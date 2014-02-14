@@ -15,9 +15,9 @@ Cleaning the temporary binaries and cache created by CMake:
 # NOTES
 
 1. A `build` directory is assumed to be created before. If you wish, you can do so by using the `clean.sh` script.
-2. The install script requires a `BUILD_SHARED_LIBS` macro, which is a boolean. 
+2. The install script requires a `BUILD_SHARED_LIBS` and a `INSTALL_HEADERS` variable within CMake, which are both booleans (`BOOL`). 
 3. Debug and Release builds are built and installed, for both shared and static binaries.
-4. The install script does not delete your CMake cache, thus if you wish to have specific settings for your own build, you may do so. To do this, you must leave the CMake cache within the `build` directory. 
+4. The install script does not delete your CMake cache, thus if you wish to have specific settings for your own build, you may do so. To do this, you must leave the CMake cache within the `build` directory.
 
 # License
 
