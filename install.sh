@@ -1,5 +1,5 @@
 #!/bin/bash
-cd build
+pushd build
 
 # Debug Builds
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_SHARED_LIBS=ON
@@ -14,3 +14,5 @@ sudo make install
 
 cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=OFF
 sudo make install
+
+popd
